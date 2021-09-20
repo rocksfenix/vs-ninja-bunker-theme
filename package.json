@@ -1,21 +1,38 @@
 {
-    "name": "ninja-bunker",
-    "displayName": "Ninja Bunker",
-    "description": "Cool and legible theme for Screencast and code.",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.60.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Ninja Bunker",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Ninja Bunker-color-theme.json"
-            }
-        ]
-    }
+  "name": "ninja-bunker",
+  "displayName": "Ninja Bunker",
+  "description": "Cool and legible theme for Screencast and code.",
+  "version": "1.0.0",
+  "publisher": "TecsNinja",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Ninja Bunker",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Ninja Bunker-color-theme.json"
+      }
+    ]
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rocksfenix/vs-ninja-bunker-theme.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rocksfenix/vs-ninja-bunker-theme/issues"
+  },
+  "homepage": "https://github.com/rocksfenix/vs-ninja-bunker-theme#readme",
+  "activationEvents": []
 }
